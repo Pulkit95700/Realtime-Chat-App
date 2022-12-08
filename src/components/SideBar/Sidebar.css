@@ -1,0 +1,43 @@
+.sidebar{
+    min-width: 220px;
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar__search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    background-color: #f6f6f6;
+    border-bottom: 0.1px solid #e9edef;
+
+}
+
+.sidebar__searchContainer{
+    /* border: 0.1px solid #dbdbdb; */
+    display: flex;
+    border-radius: 20px;
+    padding: 2px 10px;
+    width: 100%;
+    background-color: #FFFF;
+    align-items: center;
+}
+input{
+    flex: 1;
+    border: none;
+    padding: 5px 5px;
+    background-color: inherit;
+    font-size: 0.8rem;
+}
+
+.sidebar__search input:focus{
+    outline: none;
+}
+.sidebar__search input::placeholder{
+    border: none;
+}
+.sidebar__chatrooms{
+    overflow-y: scroll;
+    height: 80vh;
+}

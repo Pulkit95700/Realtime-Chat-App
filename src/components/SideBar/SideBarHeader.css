@@ -1,0 +1,23 @@
+.sidebar__header{
+    /* background-color: #dadbd3; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 12px 20px;
+    border-right: 0.1px solid#dadbd3;
+    border-bottom: 0.1px solid #dbdad3;
+}
+.header-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.header__features{
+    display: flex;
+    list-style-type: none;
+}
+
+.features__icon{
+    color: black;
+}
